@@ -1,8 +1,6 @@
 name: Install Linux packages
 
-on:
-  push:
-    branches: '*'
+on: workflow_dispatch
 
 jobs:
   build:
