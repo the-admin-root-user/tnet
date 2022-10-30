@@ -13,4 +13,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install package
-      run: sudo apt install neofetch -y && neofetch && df -h && cat /proc/cpuinfo && cat /proc/version
+      run: sudo apt install neofetch -y && neofetch && df -h && cat /proc/cpuinfo && cat /proc/version && pwd
